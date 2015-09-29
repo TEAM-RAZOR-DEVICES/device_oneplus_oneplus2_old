@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "TEAM-RAZOR-DEVICES/kernel_oneplus_msm8994",
+    "target_path": "kernel/oneplus/msm8994",
+    "branch": "lp5.1"
+  },
+  {
+    "repository": "TEAM-RAZOR-DEVICES/proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch": "lp5.1"
+  }
+]
