@@ -1213,3 +1213,4 @@ fi
 /system/bin/sh /system/etc/msm8994_tune.sh &
 /system/bin/sh /system/etc/msm8994_hmp.sh &
 #END VENDOR_EDIT
+/system/bin/sh /system/etc/msm8994_aux.sh &
