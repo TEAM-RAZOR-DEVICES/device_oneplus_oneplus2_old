@@ -179,31 +179,6 @@ TARGET_RECOVERY_FSTAB := device/oneplus/oneplus2/rootdir/etc/fstab.qcom
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-    device.te \
-    drmserver.te \
-    file.te \
-    file_contexts \
-    genfs_contexts \
-    init-shell.te \
-    healthd.te \
-    mediaserver.te \
-    netmgrd.te \
-    property.te \
-    property_contexts \
-    qmuxd.te \
-    qseecomd.te \
-    rild.te \
-    sensors.te \
-    servicemanager.te \
-    system-server.te \
-    time-daemon.te \
-    thermal-engine.te \
-    usb-uicc-daemon.te \
-    vold.te \
-    wpa_supplicant.te
 
 BOARD_SEPOLICY_DIRS += device/oneplus/oneplus2/sepolicy
 
