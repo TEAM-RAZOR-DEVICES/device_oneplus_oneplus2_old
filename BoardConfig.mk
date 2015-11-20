@@ -103,7 +103,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/oneplus2/bluetooth
 
 # Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
-COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND='{"persist.audio.", AID_SYSTEM, 0}, {"persist.sys.camera.", AID_MEDIA, 0}, {"camera.", AID_MEDIA, 0}, {"sys.media.", AID_MEDIA, 0},
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
