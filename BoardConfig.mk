@@ -28,6 +28,8 @@ BOARD_VENDOR := oneplus
 TARGET_BOOTLOADER_BOARD_NAME := MSM8994
 TARGET_NO_BOOTLOADER := true
 
+TARGET_USES_C2D_COMPOSITION := true
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8994
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno430
@@ -98,6 +100,9 @@ AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BOARD_HAS_QCA_BT_ROME := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/oneplus2/bluetooth
+
+# Camera
+USE_DEVICE_SPECIFIC_CAMERA := true
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
@@ -178,6 +183,9 @@ BOARD_SEPOLICY_DIRS += device/oneplus/oneplus2/sepolicy
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
+
+# Disable HW based full disk encryption
+TARGET_HW_DISK_ENCRYPTION := false
 
 # CM Hardware
 BOARD_USES_CYANOGEN_HARDWARE := true
