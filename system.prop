@@ -57,7 +57,6 @@ ro.bluetooth.wipower=true
 # Camera
 camera.disable_zsl_mode=1
 vidc.enc.dcvs.extra-buff-count=2
-camera2.portability.force_api=1
 
 # CEC
 ro.hdmi.device_type=4
