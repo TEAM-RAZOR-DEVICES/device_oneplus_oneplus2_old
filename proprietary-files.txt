@@ -12,7 +12,8 @@
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libmm-abl.so
 -vendor/lib64/libtime_genoff.so
--lib64/hw/sensors.hal.tof.so
+vendor/lib64/libTimeService.so
+vendor/lib/libTimeService.so
 bin/adsprpcd
 bin/btnvtool
 bin/cnd
@@ -119,6 +120,7 @@ lib/libqomx_core.so
 lib/libril.so
 lib/librmnetctl.so
 lib64/hw/lights.msm8994.so
+lib64/hw/sensors.hal.tof.so
 lib64/libcnefeatureconfig.so
 lib64/libopcamera.so
 lib64/libopcameralib.so
@@ -184,7 +186,6 @@ vendor/lib/libSSEPKCS11.so
 vendor/lib/libSecureUILib.so
 vendor/lib/libStDrvInt.so
 vendor/lib/libSubSystemShutdown.so
-vendor/lib/libTimeService.so
 vendor/lib/libWVStreamControlAPI_L3.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
@@ -532,7 +533,6 @@ vendor/lib64/libSSEPKCS11.so
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libStDrvInt.so
 vendor/lib64/libSubSystemShutdown.so
-vendor/lib64/libTimeService.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbmapper.so
